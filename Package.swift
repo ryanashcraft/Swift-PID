@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swift-PID",
+    name: "swift-pid",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Swift-PID",
+            name: "swift-pid",
             targets: ["PID"]
         )
     ],
